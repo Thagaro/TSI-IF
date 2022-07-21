@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <link rel="shortcut icon" href="icons/if.ico">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <title>Formulário</title>
+
+</head>
+<body>
+
+    <header class="menu">
+
+      <div class="logo">
+ 
+        <a href="index.html"><img class="logo img" src="logos/IF-Goiano1.png" alt="logo"></a>
+        
+        <h1>Tecnologia de Sistemas para Internet-TSI</h1>
+
+      </div>
+
+        <nav class="nav1">
+
+            <nav class="return">
+
+                <p><a href="index.html">Pagina inicial</a></p>
+
+            </nav>
+
+            <h2> <img class="logos" src="logos/whats.png" alt="zap"> whatsapp </h2>
+            <h2><img class="logos" src="logos/insta.png" alt="insta"> Instagram </h2>
+            <h2><img class="logos" src="logos/face.png" alt="face"> Facebook</h2>
+
+        </nav>
+
+    </header>
+
+    <div  class="menu3">
+
+        <article class="art2">
+
+            <section class="sec1">
+
+                <h1>Preencha o Formulario:</h1>
+
+            </section>
+
+            <div class="form">
+
+                <form method= “post” id= “f_contato” action="">
+
+                    <fieldset id="id_usuario">
+
+                        <legend>Identificação do Usuário</legend>
+
+                        <label for="cNome">Nome</label>
+                        <input type="text" name="tNome" id="cNome"size="25" maxlength="50" placeholder="Nome Completo">
+
+                        <label for="cCPF">CPF</label>
+                        <input type="text" name="tCPF" id="cCPF" size="25" maxlength="14" placeholder="000.000.000-00">
+
+                        <label for="cSenha">Senha</label>
+                        <input type="senha" name="tSenha" id="cSenha" size="25" maxlength="4" placeholder="4 digitos" >
+
+                        <label for= "cEmail">e-mail</label>
+                        <input type= "email" name= "tEmail" id= "cEmail" size= "25" maxlength= "40" placeholder= "E-mail Válido">
+
+                        <label for= “cDate”>Data de Nascimento</label>
+                        <input type= "date" name="tDate" id= "cDate">
+
+                    </fildset id="end_usuario"> 
+
+                        
+                    <fieldset id="sexo">
+
+                        <legend>Sexo</legend>
+
+                        <label for="cMas">Masculino</label><input type= "radio" name= "rSexo" id= "cMas">
+
+                        <label for="cFem">Feminino</label><input type= "radio" name= "rSexo" id= "cFem">
+
+                    </fildset>
+                    
+                    <fieldset id="ende">
+
+                        <legend> Endereço do Usuário </legend>
+                        
+                        <legend for= "cEst">Estado</legend>
+                        <select name= "tEst" id= "cEst">
+                        <optgroup label= "Região Centro-Oeste">
+                        <option selected disabled value="">Selecione</option>
+                        <option> Brasília </option>
+                        <option> Goiás </option>
+                        <option> Mato Grosso </option>
+                        <option> Mato Grosso do Sul </option>
+                        </optgroup>
+                        <optgroup label= "Região Sul">
+                        <option> Paraná </option>
+                        <option> Santa Catarina </option>
+                        <option> Rio Grande do Sul </option>
+                        </optgroup>
+                        </select>
+                    </fieldset>
+
+                    <fieldset id="city">
+                        <label for= "cCid">Cidade</label>
+                        <input type= "text" name="tCid" id= "cCid" maxlength= "40" size= "25" placeholder= "Sua cidade"list="cidades">
+                        <datalist id= "cidades">
+                        <option value= "Goiânia"></option>
+                        <option value= "Morrinhos"></option>
+                        <option value= "Catalão"></option>
+                        <option value= "Goiandira"></option>
+                        </datalist>
+
+                        <label for="cBairro">Bairro</label>
+                        <input type="text" name="tBairro" id="cBairro"size="25" maxlength="50" placeholder="Seu Bairro">
+                        
+                        <label for="cRua">Rua</label>
+                        <input type="text" name="tRua" id="cRua"size="25" maxlength="20" placeholder="Rua">
+
+                        <label for= “cNum”>Número</label>
+                        <input type="number" name= "tNum" id= "cNum" min= "0" max="9999">
+
+                        <input type= "submit" name= "bSub" id= "cSub" value="Enviar">
+                    </fieldset>
+
+                </form>
+
+            </div>
+        </article>
+  
+       <aside class="asi2">
+          <h1>Sobre:</h1>
+
+           <p>Formulário é um documento pré-impresso onde são preenchidos os dados e informações, que permite a formalização das comunicações, o registro e o controle das atividades das organizações, como empresas ou instituições estatais.</p>
+
+        </aside>
+
+    </div>
+
+    <footer class="fo1">
+
+        <h1>Para mais informações, entre em contato conosco.</h1>
+
+        <p class="end">Desenvolvido por Thag &copy;</p>
+
+    </footer>
+</body>
+</html>
